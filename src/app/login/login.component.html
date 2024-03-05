@@ -1,0 +1,57 @@
+<div class="flex flex-col justify-center bg-white">
+    <section class="flex flex-col justify-center w-full bg-white max-md:max-w-full">
+      <div class="w-full bg-white max-md:max-w-full">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+            <div class="flex overflow-hidden relative flex-col grow justify-end self-stretch px-14 py-12 rounded-none min-h-[960px] max-md:px-5 max-md:max-w-full">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ef0f9684140078b18ba36ecb1edb7ef249601edcfe0a645b0856c2ea85f9e04e?apiKey=e8f39798df954c9d8e0f9c4dcfadf582&" alt="" class="object-cover absolute inset-0 size-full">
+              <blockquote class="relative text-4xl font-medium tracking-tighter leading-10 text-white mt-[598px] max-md:mt-10 max-md:max-w-full">
+                “La terre est notre foyer commun. Cultivons-la avec amour et gratitude, et elle nous offrira toute sa richesse”
+              </blockquote>
+              <div class="flex relative gap-3 justify-between mt-6 max-md:flex-wrap max-md:max-w-full">
+                <div class="grow self-start text-lg leading-7 text-white max-md:max-w-full">John Doe</div>
+                <div class="flex gap-5 justify-between">
+                  <div class="flex justify-center items-center px-4 w-14 h-14 rounded-3xl border border-solid aspect-square border-white border-opacity-50">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ff5f97beb29c92c8ef08d84174660992937532ed2f66df263d8e6eb3f7206d5?apiKey=e8f39798df954c9d8e0f9c4dcfadf582&" alt="Profile Picture" class="w-full aspect-square">
+                  </div>
+                  <div class="flex justify-center items-center px-4 w-14 h-14 rounded-3xl border border-solid aspect-square border-white border-opacity-50">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc969320eb822628d51d559110ceeb7987aea8e5877e5db88226d2208ef42301?apiKey=e8f39798df954c9d8e0f9c4dcfadf582&" alt="Profile Picture" class="w-full aspect-square">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+            <div class="flex grow justify-center items-center self-stretch px-16 py-8 text-sm leading-5 max-md:px-5 max-md:max-w-full">
+              <form class="flex flex-col max-w-full w-[360px]" (submit)="login()">
+                <div class="flex gap-3 justify-end self-center text-xl font-semibold leading-6 text-violet-500 whitespace-nowrap">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/01df3889a87b04b042b43d139aeac0fcfa0f50106280e2bb5386210ca4191560?apiKey=e8f39798df954c9d8e0f9c4dcfadf582&" alt="Logo" class="w-8 aspect-square">
+                  <div class="grow my-auto">Carrière <span class="text-violet-500">Pro</span></div>
+                </div>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/241c03a4db35f08440796217df42fb3b70e31924f7df86924400695d4f7f0aa7?apiKey=e8f39798df954c9d8e0f9c4dcfadf582&" alt="Main Logo" class="self-center mt-40 w-12 aspect-square max-md:mt-10">
+                <h2 class="mt-6 text-3xl font-semibold leading-10 text-center text-gray-900 whitespace-nowrap">Se connecter</h2>
+                <p class="mt-3 text-base leading-6 text-center whitespace-nowrap text-slate-600">Veuillez saisir vos cordonnées de connexion</p>
+                <label for="email" class="mt-8 font-medium text-slate-700">Email</label>
+                <input id="email" type="email" class="justify-center px-3.5 py-2.5 mt-1.5 text-base leading-6 text-gray-500 whitespace-nowrap bg-white rounded-lg border border-solid shadow-sm border-gray-300" placeholder="Saisir votre email" aria-label="Saisir votre email">
+                <label for="password" class="mt-5 font-medium text-slate-700">Mot de passe</label>
+                <input id="password" type="password" class="justify-center px-3.5 py-2.5 mt-1.5 text-base leading-6 text-gray-500 whitespace-nowrap bg-white rounded-lg border border-solid shadow-sm border-gray-300" placeholder="••••••••">
+                <div class="flex gap-5 justify-between mt-6 whitespace-nowrap">
+                  <div class="flex gap-2 justify-between font-medium text-slate-700">
+                    <input id="remember-me" type="checkbox" class="my-auto w-4 h-4 bg-white rounded border border-solid border-gray-300">
+                    <label for="remember-me" class="grow">Garder ma session active</label>
+                  </div>
+                  <a href="#" class="grow font-semibold text-violet-500">Mot de passe oublié?</a>
+                </div>
+                <button type="submit" class="justify-center items-center px-16 py-2.5 mt-6 text-base font-semibold leading-6 text-white whitespace-nowrap bg-violet-500 rounded-lg border border-violet-500 border-solid shadow-sm max-md:px-5">Connexion</button>
+                <div class="flex gap-1 justify-between px-7 mt-8 whitespace-nowrap max-md:px-5">
+                  <span class="grow text-slate-600">Vous n’avez pas de compte?</span>
+                  <a href="#" class="grow font-semibold text-violet-700">Créer un compte</a>
+                </div>
+                <p class="self-center mt-44 whitespace-nowrap text-slate-600 max-md:mt-10">© 2024 CarrièresPro</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
